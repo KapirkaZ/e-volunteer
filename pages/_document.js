@@ -94,9 +94,9 @@ class MyDocument extends Document {
             content={data[currentLocale].metaDescription}
           />
 
-          <link rel="canonical" href="https://e-volunteer.vercel.app/" />
+          <link rel="canonical" href="https://e-volunteer.eu/" />
 
-          <link rel="alternate" href="https://e-volunteer.vercel.app/" />
+          <link rel="alternate" href="https://e-volunteer.eu/" />
         </Head>
 
         <body>
