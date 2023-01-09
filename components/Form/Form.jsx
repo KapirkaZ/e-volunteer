@@ -57,7 +57,7 @@ export const Form = () => {
       text += `<b>Пошта: </b> ${data.email}\n`;
       text += `<b>Повідомлення: </b> ${data.message}\n`;
       text += `<b>Форма отримана з:</b>\n`;
-      text += `<a href="https://xxx.netlify.app/">https://xxx.netlify.app/</a>`;
+      text += `<a href="https://e-volunteer.eu/">https://e-volunteer.eu/</a>`;
       await sendMessage(text);
       openModal();
       reset();
